@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://dwqtvko2akniv"]
+
+[ext_resource type="Script" uid="uid://uhdds4sd11qq" path="res://scripts/Bullet.gd" id="1_4utqk"]
+[ext_resource type="Texture2D" uid="uid://kgcb8y7riuyl" path="res://assets/sprites/robotX_tileset.png" id="1_p1sfj"]
+[ext_resource type="Script" uid="uid://bgwcg0cdgs4y0" path="res://scripts/HitboxComponent.gd" id="2_4utqk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4utqk"]
+atlas = ExtResource("1_p1sfj")
+region = Rect2(0, 455, 59, 65)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_51h0o"]
+atlas = ExtResource("1_p1sfj")
+region = Rect2(59, 455, 59, 65)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4m4t0"]
+atlas = ExtResource("1_p1sfj")
+region = Rect2(118, 455, 59, 65)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o3y3k"]
+atlas = ExtResource("1_p1sfj")
+region = Rect2(177, 455, 59, 65)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_adu8d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4utqk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_51h0o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4m4t0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o3y3k")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_snae7"]
+radius = 6.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vr6nt"]
+radius = 6.0
+
+[node name="Bullet" type="Area2D" unique_id=66600818]
+script = ExtResource("1_4utqk")
+speed = 1000.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2021724662]
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_adu8d")
+frame_progress = 0.7443397
+
+[node name="Area2D" type="Area2D" parent="." unique_id=151472569]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=370914094]
+visible = false
+shape = SubResource("CircleShape2D_snae7")
+
+[node name="HitboxComponent" type="Area2D" parent="." unique_id=242813929]
+script = ExtResource("2_4utqk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitboxComponent" unique_id=75815100]
+visible = false
+shape = SubResource("CircleShape2D_vr6nt")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

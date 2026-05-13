@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dso5l3rfuo4t1"]
+
+[ext_resource type="Script" uid="uid://eu7gkncfi038" path="res://scripts/shot.gd" id="1_cupcd"]
+[ext_resource type="Texture2D" uid="uid://bcuf5rrsqslk3" path="res://icon.svg" id="1_ta7u2"]
+
+[node name="bullet" type="AnimatedSprite2D" unique_id=316998773]
+script = ExtResource("1_cupcd")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1129124796]
+scale = Vector2(0.03125, 0.031250004)
+texture = ExtResource("1_ta7u2")
+
+[node name="Timer" type="Timer" parent="." unique_id=974841107]
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
