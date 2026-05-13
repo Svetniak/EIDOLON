@@ -6,7 +6,7 @@ EIDOLON is a narrative-driven action metroidvania focused on ideological conflic
 
 Set within the decaying megacivilization of **Aethra**, players explore a fractured society divided between political powers, technological transcendence, and human survival while an invisible intelligence silently shapes the evolution of civilization itself.
 
----
+## [Portrate](./EIDOLON-portrate.png)
 
 # Overview
 
