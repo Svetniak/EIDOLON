@@ -98,7 +98,7 @@ They reject absolute control from both the Directorate and Veyra.
 
 > “We remain our own.”
 
----
+## [Karass](./EIDOLON-karas.png)
 
 # Core Gameplay Systems
 
