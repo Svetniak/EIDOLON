@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"ebf7e8d1f0cb40d3","type":"file","file":"Estructura de Juego/Visuals ideas/Rebel-vehicle 3.png","x":-100,"y":540,"width":400,"height":267},
+		{"id":"4dc32705c1e9e44d","type":"file","file":"Estructura de Juego/Visuals ideas/Rebel-vehicle 2.png","x":-143,"y":760,"width":330,"height":400},
+		{"id":"74e061f5e81f6745","type":"file","file":"Estructura de Juego/Visuals ideas/Rebel-vehicle 1.png","x":100,"y":866,"width":400,"height":386},
+		{"id":"8ef1b1bc18260bd9","type":"text","text":"# Rebels","x":-167,"y":-660,"width":250,"height":60,"color":"1"},
+		{"id":"99b5eb83876bffce","type":"file","file":"Estructura de Juego/Visuals ideas/Fed-Tech Vehicle 2.png","x":-1081,"y":700,"width":400,"height":332},
+		{"id":"bd5ddb07709fd9f0","type":"file","file":"Estructura de Juego/Visuals ideas/Fed-Tech vehicle 3.png","x":-1333,"y":900,"width":329,"height":400},
+		{"id":"0f42f4121fde6a5a","type":"text","text":"# Rough-tech","x":930,"y":-660,"width":250,"height":60,"color":"2"},
+		{"id":"35e74bb213db8bfd","type":"text","text":"# Federation","x":-1244,"y":-660,"width":240,"height":60,"color":"6"},
+		{"id":"317e7db914c3e190","type":"file","file":"Estructura de Juego/Visuals ideas/Fed-Tech 1.png","x":-1508,"y":-345,"width":264,"height":400},
+		{"id":"c5c81c3813d3ed7b","type":"file","file":"Estructura de Juego/Visuals ideas/Fed-Tech Vehicle 1.png","x":-1316,"y":560,"width":384,"height":400},
+		{"id":"e7946c1cb4d93076","type":"file","file":"Estructura de Juego/Visuals ideas/Rebel 1.png","x":-494,"y":-345,"width":324,"height":400},
+		{"id":"8a3c26ac43434c7b","type":"file","file":"Estructura de Juego/Visuals ideas/Rebel 2.png","x":-275,"y":-240,"width":211,"height":400},
+		{"id":"090881f2865a6e20","type":"file","file":"Estructura de Juego/Visuals ideas/Rogue-tech 2.png","x":788,"y":-145,"width":400,"height":349},
+		{"id":"5bc7af60542e4157","type":"file","file":"Estructura de Juego/Visuals ideas/Rogue-tech 1.png","x":646,"y":-345,"width":284,"height":400}
+	],
+	"edges":[
+		{"id":"d740e1f7c1d0de2a","fromNode":"35e74bb213db8bfd","fromSide":"bottom","toNode":"c5c81c3813d3ed7b","toSide":"top"},
+		{"id":"ea17bc2fa8c17d49","fromNode":"8ef1b1bc18260bd9","fromSide":"bottom","toNode":"e7946c1cb4d93076","toSide":"top"},
+		{"id":"0b509c76e0845e78","fromNode":"8ef1b1bc18260bd9","fromSide":"bottom","toNode":"ebf7e8d1f0cb40d3","toSide":"top"},
+		{"id":"0f5688c6586224b2","fromNode":"35e74bb213db8bfd","fromSide":"bottom","toNode":"317e7db914c3e190","toSide":"top"},
+		{"id":"53e07afb211ddc83","fromNode":"0f42f4121fde6a5a","fromSide":"left","toNode":"5bc7af60542e4157","toSide":"top"}
+	]
+}

@@ -1,0 +1,295 @@
+{
+  "main": {
+    "id": "aec654ec1bafbf74",
+    "type": "split",
+    "children": [
+      {
+        "id": "d54a79c9b359f85b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "129fcc60441ea907",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estructura de Juego/Historia/Descripción.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Descripción"
+            }
+          },
+          {
+            "id": "e01645acd33680ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estructura de Juego/Historia/Historia.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Historia"
+            }
+          },
+          {
+            "id": "28f7c49349137060",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "readme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "readme"
+            }
+          },
+          {
+            "id": "ff6bf6f1415745cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estructura de Juego/Gameplay/RPG STATS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RPG STATS"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1d0939456603ad33",
+    "type": "split",
+    "children": [
+      {
+        "id": "96c895902f32389c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd0939275b56f0f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c6ffd175efde1928",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Rough-tech",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "14c5917b3f74c7a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "38c3d0adab5a2e22",
+    "type": "split",
+    "children": [
+      {
+        "id": "072b2a7d2512c644",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7e2e3469e60f639",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "create a link.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for create a link"
+            }
+          },
+          {
+            "id": "36795ac62736b6b7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "create a link.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from create a link"
+            }
+          },
+          {
+            "id": "5cd38e6cd5db07c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "78b6db03dae375b1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9608687d3aee8333",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tareas.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Tareas"
+            }
+          },
+          {
+            "id": "51786889fae5838a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tareas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tareas"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 361.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "28f7c49349137060",
+  "lastOpenFiles": [
+    "EIDOLON-bossconsept.png",
+    "EIDOLON-asset2.png",
+    "EIDOLON-asset1.png",
+    "EIDOLON-karas.png",
+    "EIDOLON-portrate.png",
+    "Estructura de Juego/Historia/FASE 1.md",
+    "readme.md",
+    "Estructura de Juego/World/MAPA ESTRUCTIRAL FASE 1.md",
+    "Estructura de Juego/Gameplay/RPG STATS.md",
+    "Estructura de Juego/World/Conflicto.md",
+    "Estructura de Juego/Historia/Historia.md",
+    "Estructura de Juego/Historia/Descripción.md",
+    "Estructura de Juego/World/Timeline.md",
+    "Estructura de Juego/Historia",
+    "Estructura de Juego/Gameplay/Gameplay.md",
+    "Estructura de Juego/Lore/Diagrama de Historia.md",
+    "Estructura de Juego/Lore/Teoria_de_conflicto.md",
+    "Estructura de Juego/Lore/Filosofia.md",
+    "Estructura de Juego/Gameplay/Mecanicas.md",
+    "Estructura de Juego/Gameplay/Ideas de items.md",
+    "Estructura de Juego/Finales/Unificarse_con_red.md",
+    "Estructura de Juego/Finales/Destruir_red.md",
+    "Estructura de Juego/Finales/Controlar_red.md",
+    "Estructura de Juego/Facciones/Eidolon - La red.md",
+    "Estructura de Juego/Facciones/Proyectos.md",
+    "Estructura de Juego/Facciones/Coalición mundial.md",
+    "Estructura de Juego/Visuals ideas/Robot idea.canvas",
+    "Estructura de Juego/Facciones/Veyra.md",
+    "Gestion de proyecto/Tareas.md",
+    "Gestion de proyecto/WorkStation.md",
+    "Gemini_Generated_Image_t4ewlnt4ewlnt4ew.png.md",
+    "Gestion de proyecto",
+    "Gemini_Generated_Image_t4ewlnt4ewlnt4ew.png",
+    "Estructura de Juego/Lore/Diagrama de Logica.md",
+    "Estructura de Juego/Gameplay",
+    "Estructura de Juego/Lore",
+    "Estructura de Juego/Finales",
+    "Estructura de Juego/Lugares",
+    "Estructura de Juego/Systemas",
+    "Estructura de Juego/Personajes",
+    "Estructura de Juego/Facciones",
+    "Estructura de Juego/World",
+    "Untitled.canvas",
+    "Estructura de Juego/Visuals ideas/Rebel-vehicle 3.png",
+    "Estructura de Juego/Visuals ideas/Rebel-vehicle 1.png",
+    "Estructura de Juego/Visuals ideas/Rebel-vehicle 2.png",
+    "Visuals ideas/Fed-Tech Vehicle 4.png",
+    "Estructura de Juego/Visuals ideas/Rogue-tech 2.png"
+  ]
+}

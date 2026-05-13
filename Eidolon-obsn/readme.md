@@ -6,8 +6,7 @@ EIDOLON is a narrative-driven action metroidvania focused on ideological conflic
 
 Set within the decaying megacivilization of **Aethra**, players explore a fractured society divided between political powers, technological transcendence, and human survival while an invisible intelligence silently shapes the evolution of civilization itself.
 
-![Portrate](./EIDOLON-portrate.png)
-
+![[EIDOLON-portrate.png]]
 # Overview
 
 EIDOLON combines:
@@ -98,7 +97,7 @@ They reject absolute control from both the Directorate and Veyra.
 
 > “We remain our own.”
 
-![Karass](./EIDOLON-karas.png)
+![[EIDOLON-karas.png]]
 
 # Core Gameplay Systems
 
@@ -175,7 +174,7 @@ Examples:
 
 Every new ability reveals hidden layers of Aethra.
 
----
+![[EIDOLON-asset1.png]]
 
 # World Structure
 
@@ -250,7 +249,7 @@ The player is not simply controlling a character.
 
 They are participating in the same systems of observation and behavioral analysis that shape the world itself.
 
----
+## ![Consept](./EIDOLON-asset2.png)
 
 # Current Status
 
@@ -266,6 +265,7 @@ Current focus:
 - World-state logic
 - Boss consequence framework
 
+![[EIDOLON-bossconsept.png]]
 ---
 
 # Inspirations
@@ -279,7 +279,6 @@ Current focus:
 - Ghost in the Shell
 - 2001: A Space Odyssey
 
----
 
 # License
 
