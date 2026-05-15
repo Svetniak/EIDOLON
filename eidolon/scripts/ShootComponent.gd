@@ -64,14 +64,19 @@ func _execute_normal_shot(direction: Vector2):
 	var random_offset = Vector2(0, randf_range(-spread, spread))
 	var final_dir = (direction + random_offset).normalized()
 	
-	get_tree().root.add_child(bullet)
-	bullet.global_position = global_position
+	get_tree().current_scene.add_child(bullet)
+	var offset_x = abs(position.x) * sign(direction.x)
+
+	bullet.global_position = get_parent().global_position + Vector2(offset_x, position.y)
 	bullet.setup(final_dir)
 
 	# RECOIL
 	var player = get_parent() as CharacterBody2D
 	if player:
-		player.velocity.x -= direction.x * recoil_strength
+		player.velocity -= direction * recoil_strength
+
+		if not player.is_on_floor() and direction.y > 0.5:
+			player.velocity.y -= recoil_strength * 1.5
 
 	# MUZZLE FLASH
 	if muzzle_flash_scene:

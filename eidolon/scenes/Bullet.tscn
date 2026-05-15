@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://uhdds4sd11qq" path="res://scripts/Bullet.gd" id="1_4utqk"]
 [ext_resource type="Texture2D" uid="uid://kgcb8y7riuyl" path="res://assets/sprites/robotX_tileset.png" id="1_p1sfj"]
-[ext_resource type="Script" uid="uid://bgwcg0cdgs4y0" path="res://scripts/HitboxComponent.gd" id="2_4utqk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4utqk"]
 atlas = ExtResource("1_p1sfj")
@@ -40,13 +39,12 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_snae7"]
-radius = 6.0
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_vr6nt"]
 radius = 6.0
 
-[node name="Bullet" type="Area2D" unique_id=66600818]
+[node name="Bullet" type="Area2D" unique_id=1382282547]
+collision_layer = 8
+collision_mask = 6
 script = ExtResource("1_4utqk")
 speed = 1000.0
 
@@ -55,18 +53,11 @@ scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_adu8d")
 frame_progress = 0.7443397
 
-[node name="Area2D" type="Area2D" parent="." unique_id=151472569]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=370914094]
-visible = false
-shape = SubResource("CircleShape2D_snae7")
-
 [node name="HitboxComponent" type="Area2D" parent="." unique_id=242813929]
-script = ExtResource("2_4utqk")
+collision_layer = 4
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitboxComponent" unique_id=75815100]
-visible = false
 shape = SubResource("CircleShape2D_vr6nt")
 
-[connection signal="area_entered" from="." to="." method="_on_area_entered"]
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=2135323413]

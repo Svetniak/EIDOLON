@@ -1,18 +1,19 @@
-# HealthComponent.gd
 extends Node
 class_name HealthComponent
 
-@export var max_health: int = 3
-var current_health: int
+signal health_changed(current_health)
+signal died
 
-signal on_died
-signal on_health_changed(new_health)
-
-func _ready():
-	current_health = max_health
+@export var max_health: int = 10
+@onready var current_health: int = max_health
 
 func damage(amount: int):
 	current_health -= amount
-	on_health_changed.emit(current_health)
-	if current_health <= 0:
-		on_died.emit()
+	health_changed.emit(current_health)
+
+	if current_health <=0:
+		died.emit()
+
+func heal(amount: int):
+	current_health = min(current_health + amount, max_health)
+	health_changed.emit(current_health)

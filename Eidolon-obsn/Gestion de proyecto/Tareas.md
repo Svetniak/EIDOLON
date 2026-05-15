@@ -1,8 +1,12 @@
 - [x] WorkFlow > ***Setup de Trabajo*** - Establecer instalar y preparar apps y utilidades.
 	- [[WorkStation]]
-- [ ] Core loop > ***Gray box*** - Un cuadro que se mueve y dispara y se siente genial.
+- [x] Core loop > ***Gray box*** - Un cuadro que se mueve y dispara y se siente genial.
+	- [x] Hacer un mundo de prueba
+	- [ ] Definir la mobilidad 
 - [x] Sistema de nodos > ***Un diagrama*** - como se ramifica el primer nivel.
 	- [[Diagrama de Logica]]
-- [ ] Estética pulse > ***Canvas*** -Ilustraciones de evolucion de personajes.
+- [x] Estética pulse > ***Canvas*** -Ilustraciones de evolucion de personajes.
+	- [ ] Idea basica de la estetica del juego
+	- [ ] prototipo de NPC, personajes y assets
 - [ ] Illustracion > ***Dubujos Originales*** - Basado en tu canvas crea ideas originales
 - [ ] Demo técnica > Un juego de 5 min donde una decicion cambia el mapa.

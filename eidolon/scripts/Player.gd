@@ -19,8 +19,6 @@ func _physics_process(delta: float) -> void:
 				movement.wall_jump()
 			else:
 				movement.jump()
-			input.wants_to_jump = false
-
 
 		# VJH (Variable Jump Height)
 		if input.jump_released:
@@ -32,7 +30,14 @@ func _physics_process(delta: float) -> void:
 
 	# 2. DISPARO (Independiente del movimiento)
 	if input.wants_to_shoot:
-		var dir = Vector2.LEFT if sprite.flip_h else Vector2.RIGHT
+		var dir = Vector2.RIGHT
+		if input.input_vector.x < 0:
+			dir = Vector2.LEFT
+		elif input.input_vector.x > 0:
+			dir = Vector2.RIGHT
+		else:
+			dir = Vector2.LEFT if sprite.flip_h else Vector2.RIGHT
+
 		shoot_comp.shoot(dir)
 
 	# 3. ACTUALIZAR VISUALES

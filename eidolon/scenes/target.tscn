@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://ck8j71o8isro4"]
+
+[ext_resource type="Script" uid="uid://r22a8cqwbw1o" path="res://scripts/Target.gd" id="1_b5a2r"]
+[ext_resource type="Texture2D" uid="uid://gngp25vibi7u" path="res://assets/sprites/target.png" id="1_b37e2"]
+[ext_resource type="Script" uid="uid://dk1xvchl63btb" path="res://scripts/HealthComponent.gd" id="3_nlbrr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_b5a2r"]
+radius = 26.019224
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2x57b"]
+radius = 27.0
+
+[node name="Target" type="StaticBody2D" unique_id=1325910344]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_b5a2r")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=632771574]
+texture = ExtResource("1_b37e2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=534014722]
+shape = SubResource("CircleShape2D_b5a2r")
+
+[node name="HealthComponent" type="Node" parent="." unique_id=269611607]
+script = ExtResource("3_nlbrr")
+
+[node name="DamageComponent" type="Area2D" parent="." unique_id=143724449]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DamageComponent" unique_id=1922021744]
+shape = SubResource("CircleShape2D_2x57b")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1877789283]
